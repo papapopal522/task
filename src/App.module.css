@@ -1,0 +1,64 @@
+.dialog_container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog_container .dialog {
+  background-color: #fff;
+  max-height: 500px;
+  max-width: 350px;
+}
+.dialog_container .dialog .dialog__header {
+  display: flex;
+}
+.dialog_container .dialog .dialog__header_title_container {
+  background-color: #ddd;
+}
+.dialog_container .dialog .dialog__header_title_container .dialog__header_title {
+  max-width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dialog_container .dialog .dialog__header_title_container .dialog__header_subtitle {
+  width: 250px;
+}
+.dialog_container .dialog .dialog__content {
+  width: 100%;
+  display: flex;
+  height: 300px;
+}
+.dialog_container .dialog .dialog__content .dialog__content_block_dialog__content_block_left {
+  display: flex;
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+.dialog_container .dialog .dialog__content .dialog__content_block_dialog__content_block_right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  overflow-y: scroll !important;
+}
+.dialog_container .dialog .dialog__content .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+  gap: 200px;
+  width: 100%;
+  max-height: 500px;
+}
+.dialog_container .dialog .dialog__footer {
+  text-align: center;
+  word-wrap: break-word;
+  white-space: normal;
+  background: #dddddd;
+}
+
+/*# sourceMappingURL=App.module.css.map */
